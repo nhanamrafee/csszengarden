@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body * {
+	margin: 0;
+	padding: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+body {
+	background-color: black;
+	padding-left: 4%;
+	padding-right: 4%;
+	margin-top: 0px;
+	background-image: url("crying.png");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+header[role="banner"] {
+	position: fixed;
+	border-bottom: 4px solid white;
+	width: 100%;
+	margin-bottom: 18px;
+	color: white;
+	background-color: black;
+	padding-top: 100px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-image: url("crying.png");
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 48px;
+	float: none;
+}
+
+h2 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 24px;
+	margin-top: -10px;
+}
+
+.intro {
+/*	display: flex;*/
+}
+
+.summary {
+	font-family: 'Roboto', sans-serif;
+	font-weight: medium;
+	font-size: 18px;
+	float: left;
+	width: 22.35%;
+	margin-top: 230px;
+}
+
+.summary p:nth-child(2) {
+	font-size: 24px;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+	margin-top: 20px;
+/*	background-color: dimgray;*/
+	border-radius: 20px;
+	padding: 2%;
+	border: 2px dotted white;
+}
+
+.preamble {
+	float: right;
+	width: 52.15%;
+	margin-top: 230px;
+}
+
+#zen-supporting {
+	float: right;
+	width: 60%;
+}
+
+.sidebar {
+	float: left;
+	width: 30%;
+}
+
+
+.summary, .design-selection, .design-archives, .zen-resources {
+	background-color: gray;
+	border-radius: 20px;
+	padding: 4%;
+	margin-bottom: 18px;
+}
+
+.preamble, .explanation, .participation, .benefits, .requirements {
+	background-color: darkgray;
+	border-radius: 20px;
+	padding: 4%;
+	margin-bottom: 18px;
+}
+
+h3 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: medium;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	font-family: 'Roboto', sans-serif;
+	font-weight: medium;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+
+a {
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	text-decoration: none;
+}
+
+footer {
+	background-color: darkgray;
+	border-radius: 20px;
+	padding: 4%;
+	text-align:center;
+	margin-bottom: 200px;
+}
+
+
+
+
+/*MEDIA QUERIES!*/
+
+
+
+@media (max-width:800px) {
+/*
+	body {
+		background-color: white;
+	}
+*/
+	header[role="banner"] {
+		width: 100%;
+		margin-bottom: 18px;
+		padding-top: 200px;
+		padding-bottom: 10px;
+		margin-top: 0px;
+	}
+	h1 {
+		margin-top: 0px;
+		font-size: 36px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	h3 {
+		font-size: 18px;
+	}
+	p {
+		font-size: 12px;
+	}
+	.summary p:nth-child(2) {
+		font-size: 18px;
+	}
+	li {
+		font-size: 12px;
+	}
+/*
+	.intro {
+		display: inherit;
+	}
+*/
+	.summary {
+		width: 82.125%;
+		float: none;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	.preamble {
+		width: 82.125%;
+		float: none;
+		margin-top: 18px;
+	}
+	.sidebar {
+		margin-top: 18px;
+		width: 90%;
+		float: none;
+	}
+	#zen-supporting {
+		float: none;
+		width: 90%;
+		margin-bottom: 0px;
+	}
+	footer {
+		margin-bottom: 0px;
+	}
+}
+
+
